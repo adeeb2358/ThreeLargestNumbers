@@ -238,6 +238,8 @@
 		D0BA5D3523BF444D00CC562A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C8G67J4CQT;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -248,6 +250,8 @@
 		D0BA5D3623BF444D00CC562A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C8G67J4CQT;
 				ENABLE_HARDENED_RUNTIME = YES;
